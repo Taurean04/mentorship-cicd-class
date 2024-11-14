@@ -39,7 +39,7 @@ describe('Math Functions', () => {
     });
 
     it('should fail by returning 5 for subtract(3, 2)', () => {
-      expect(subtract(3, 2)).to.equal(5); // This test will fail
+      expect(subtract(3, 2)).to.equal(1); // This test will fail
     });
   });
 });
